@@ -1,4 +1,4 @@
-FROM million12/nginx:latest
+FROM carqualifier/docker-nginx:latest
 MAINTAINER Marcin Ryzycki <marcin@m12.io>
 
 # Add install scripts needed by the next RUN command
