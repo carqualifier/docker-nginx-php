@@ -1,5 +1,5 @@
-FROM million12/nginx:latest
-MAINTAINER Marcin Ryzycki <marcin@m12.io>
+FROM carqualifier/docker-nginx:latest
+MAINTAINER Marcin Ryzycki <marcin@m12.io>, Faruk Brbovic <fbrbovic@carqualifier.com>
 
 # Add install scripts needed by the next RUN command
 ADD container-files/config/install* /config/
