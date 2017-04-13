@@ -1,5 +1,5 @@
 FROM carqualifier/docker-nginx:latest
-MAINTAINER Marcin Ryzycki <marcin@m12.io>, Eidher Escalona <eescalona@carqualifier.com>
+MAINTAINER Marcin Ryzycki <marcin@m12.io>,  Eidher Escalona <eescalona@carqualifier.com>
 
 # Add install scripts needed by the next RUN command
 ADD container-files/config/install* /config/
